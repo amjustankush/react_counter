@@ -1,0 +1,78 @@
+.card{
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+.card .card-img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card .card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #111;
+}
+.card .card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+.button{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+}
+.student{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid #666;
+}
+.student p{
+    margin: 0;
+}
+.welcome-msg{
+font-size: 2.5em;
+background-color: greenyellow;
+color: #000000;
+padding: 10px;
+border-radius: 5px;
+margin: 0;
+}
+.login-msg{
+    font-size: 2.5em;
+    background-color: #e80000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.list-items li{
+    font-size:2em;
+    list-style: none;
+    color: #777;
+    text-align: center;
+    margin: 0;
+}
+.list-items li:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+.list-category{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid #666;
+    border-radius: 5px;
+    background-color: #00aaff;
+}
